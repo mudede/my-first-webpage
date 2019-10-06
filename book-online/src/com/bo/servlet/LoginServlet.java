@@ -13,13 +13,7 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-/**
- * @author mq_xu
- * @ClassName LoginController
- * @Description 拦截/login.do请求，获得表单传递的参数，进行登录功能验证
- * @Date 2019/9/26
- * @Version 1.0
- **/
+
 @WebServlet(urlPatterns = "/login.do")
 public class LoginServlet extends HttpServlet {
 
