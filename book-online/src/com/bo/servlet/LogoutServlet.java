@@ -8,13 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
-/**
- * @author mq_xu
- * @ClassName LogoutController
- * @Description 注销登录控制
- * @Date 2019/9/26
- * @Version 1.0
- **/
+
 @WebServlet(urlPatterns = "/logout")
 public class LogoutServlet extends HttpServlet {
     @Override
