@@ -6,13 +6,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-/**
- * @author mq_xu
- * @ClassName Test
- * @Description 图书业务逻辑类
- * @Date 2019/9/26
- * @Version 1.0
- **/
+
 public class BookService {
 
     public static List<Book> init() {
