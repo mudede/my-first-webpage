@@ -1,12 +1,6 @@
 package com.bo.entity;
 
-/**
- * @author mq_xu
- * @ClassName Book
- * @Description 图书实体类
- * @Date 2019/9/23
- * @Version 1.0
- **/
+
 public class Book {
     private Integer id;
     private String name;
