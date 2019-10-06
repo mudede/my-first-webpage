@@ -7,13 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-/**
- * @author mq_xu
- * @ClassName LoginPageController
- * @Description 登录页面跳转控制
- * @Date 2019/9/26
- * @Version 1.0
- **/
+
 @WebServlet(urlPatterns = "/login")
 public class LoginPageServlet extends HttpServlet {
     @Override
