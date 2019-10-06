@@ -2,13 +2,7 @@ package com.bo.entity;
 
 import java.time.LocalDate;
 
-/**
- * @author mq_xu
- * @ClassName User
- * @Description 用户实体类
- * @Date 2019/9/23
- * @Version 1.0
- **/
+
 public class User {
     private Integer id;
     private String account;
