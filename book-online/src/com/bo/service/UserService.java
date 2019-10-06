@@ -9,13 +9,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-/**
- * @author mq_xu
- * @ClassName UserService
- * @Description 用户业务逻辑类
- * @Date 2019/9/26
- * @Version 1.0
- **/
+
 public class UserService {
     private List<User> userList;
 
