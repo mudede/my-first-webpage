@@ -11,13 +11,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-/**
- * @author mq_xu
- * @ClassName BookDetailController
- * @Description 图书详情页面
- * @Date 2019/9/26
- * @Version 1.0
- **/
 @WebServlet(urlPatterns = "/detail/*")
 public class BookDetailServlet extends HttpServlet {
     @Override
