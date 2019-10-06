@@ -12,13 +12,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-/**
- * @author mq_xu
- * @ClassName ContextLoaderListener
- * @Description 上下文加载监听，在服务器启动的时候即刻生效，用来生成用户数据和图书数据
- * @Date 2019/9/27
- * @Version 1.0
- **/
 
 @WebListener
 public class ContextLoaderListener implements ServletContextListener {
@@ -33,29 +26,30 @@ public class ContextLoaderListener implements ServletContextListener {
         //创建并生成用户数据列表
         List<User> userList = new ArrayList<>(3);
         User[] users = {
-                new User(1, "aaa@qq.com", "698d51a19d8a121ce581499d7b701668", "开到荼蘼", "user1.jpg", "江苏南京", LocalDate.of(2018, 6, 11)),
-                new User(2, "bbb@qq.com", "698d51a19d8a121ce581499d7b701668", "小幸运", "user2.jpg", "浙江杭州", LocalDate.of(2019, 2, 18)),
-                new User(3, "ccc@qq.com", "698d51a19d8a121ce581499d7b701668", "往后余生", "user3.jpg", "湖北武汉", LocalDate.of(2019, 8, 19))
+                new User(1, "aaa@qq.com", "698d51a19d8a121ce581499d7b701668", "咕哒子", "user1.jpg", "江苏南京", LocalDate.of(2018, 6, 11)),
+                new User(2, "bbb@qq.com", "698d51a19d8a121ce581499d7b701668", "咕哒夫", "user2.jpg", "浙江杭州", LocalDate.of(2019, 2, 18)),
+                new User(3, "ccc@qq.com", "698d51a19d8a121ce581499d7b701668", "白野", "user3.jpg", "湖北武汉", LocalDate.of(2019, 8, 19))
         };
         userList = Arrays.asList(users);
 
         //创建并生成图书数据列表
         List<Book> bookList = new ArrayList<>(10);
         Book[] books = {
-                new Book(1, "漫长的婚约", "book1.jpg", "[法] 塞巴斯蒂安"),
-                new Book(2, "庸人自扰", "book2.jpg", "[英]戴伦•麦加维"),
-                new Book(3, "绿山墙的安妮", "book3.jpg", "[美]理查德·耶茨"),
-                new Book(4, "敌人与邻居", "book4.jpg", "[英]伊恩·布莱克"),
-                new Book(5, "哀伤纪", "book5.jpg", "钟晓阳"),
-                new Book(6, "漫长的婚约", "book1.jpg", "[法] 塞巴斯蒂安"),
-                new Book(7, "庸人自扰", "book2.jpg", "[英]戴伦•麦加维"),
-                new Book(8, "绿山墙的安妮", "book3.jpg", "[美]理查德·耶茨"),
-                new Book(9, "敌人与邻居", "book4.jpg", "[英]伊恩·布莱克"),
-                new Book(10, "哀伤纪", "book5.jpg", "钟晓阳"),
-                new Book(11, "漫长的婚约", "book1.jpg", "[法] 塞巴斯蒂安"),
-                new Book(12, "庸人自扰", "book2.jpg", "[英]戴伦•麦加维")
+                new Book(1, "亚瑟", "1.jpg", "Saber"),
+                new Book(2, "岩窟王", "2.jpg", "Avenger"),
+                new Book(3, "福尔摩斯", "3.jpg", "Ruler"),
+                new Book(4, "库丘林", "4.jpg", "Berserker"),
+                new Book(5, "吉尔伽美什", "5.jpg", "Archer"),
+                new Book(6, "亚瑟", "1.jpg", "Saber"),
+                new Book(7, "岩窟王", "2.jpg", "Avenger"),
+                new Book(8, "福尔摩斯", "3.jpg", "Ruler"),
+                new Book(9, "库丘林", "4.jpg", "Berserker"),
+                new Book(10, "吉尔伽美什", "5.jpg", "Archer"),
+                new Book(11, "亚瑟", "1.jpg", "Saber"),
+                new Book(12, "吉尔伽美什", "5.jpg", "Archer")
 
         };
+        bookList = Arrays.asList(books);
         bookList = Arrays.asList(books);
 
         //获得全局变量
