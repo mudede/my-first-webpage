@@ -7,13 +7,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-/**
- * @author mq_xu
- * @ClassName UserPageController
- * @Description 个人中心页面跳转控制
- * @Date 2019/9/26
- * @Version 1.0
- **/
 @WebServlet(urlPatterns = "/user")
 public class UserPageServlet extends HttpServlet {
     @Override
